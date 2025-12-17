@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/DDDTeam/http-client/compare/v1.0.0...v1.0.1) (2025-12-17)
+
+
+### Bug Fixes
+
+* name ([9426d57](https://github.com/DDDTeam/http-client/commit/9426d5710e56f55c9b4be2da35241691c49f882a))
+
 # 1.0.0 (2025-12-17)
 
 
