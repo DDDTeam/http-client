@@ -1,0 +1,35 @@
+{
+  "name": "ddd-http-client",
+  "version": "1.0.0",
+  "description": "HTTP Client made by DDD team",
+  "main": "dist/ddd-http-client.mjs",
+  "module": "dist/ddd-http-client.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "type-check": "tsc --noEmit",
+    "start": "vite",
+    "build": "tsc && vite build && npm run build:types",
+    "build:types": "tsc -p tsconfig.build.json"
+  },
+  "keywords": [
+    "HTTP Client",
+    "ddd",
+    "frontend",
+    "typescript"
+  ],
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/npm": "^12.0.2",
+    "semantic-release": "^24.2.9",
+    "@types/node": "^24.7.2",
+    "typescript": "~5.9.3",
+    "typescript-eslint": "^8.46.1",
+    "vite": "^7.2.7",
+    "vite-plugin-static-copy": "^3.1.4",
+    "vite-tsconfig-paths": "^5.1.4"
+  }
+}
