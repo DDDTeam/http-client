@@ -14,7 +14,7 @@ export default defineConfig((_) => {
         entry: "src/index.ts",
         name: "DDD Redux",
         formats: ["es"],
-        fileName: "ddd-redux-thunk",
+        fileName: "ddd-http-client",
       },
       outDir: "dist",
       emptyOutDir: true,
